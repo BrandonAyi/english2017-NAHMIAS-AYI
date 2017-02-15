@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:orientation="vertical">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_weight="0.00"
+        android:layout_height="200dp"></Space>
+
+    <TextView
+        android:text="VOTRE SCORE EST DE :"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="#ff0000"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="77dp"></Space>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:text="HOME MENU"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/homeButton"
+            android:layout_weight="0.77" />
+
+        <Button
+            android:text="DO IT AGAIN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/returnButton"
+            android:layout_weight="1" />
+    </RadioGroup>
+
+</LinearLayout>
