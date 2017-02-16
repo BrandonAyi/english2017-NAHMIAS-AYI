@@ -23,7 +23,7 @@ public class PhrasalVerbsActivity extends Activity {
         setContentView(R.layout.phrasal_verbs);
 
         try {
-            PlayWithRawFiles();
+            PlayWithRawFiles(R.raw.phrasal_verbs,R.id.textViewSelectedFile);
         } catch (IOException e) {
             Toast.makeText(getApplicationContext(),
                     "Problems: " + e.getMessage(), Toast.LENGTH_LONG).show();
@@ -31,12 +31,12 @@ public class PhrasalVerbsActivity extends Activity {
 
     }
 
-    public void PlayWithRawFiles() throws IOException {
+    public void PlayWithRawFiles(int resource, int textview) throws IOException {
         String str="";
         StringBuffer buf = new StringBuffer();
 
         // Read the file :open a InputStream on it
-        InputStream inputStream = getResources().openRawResource(R.raw.phrasal_verbs);
+        InputStream inputStream = getResources().openRawResource(resource);
 
         BufferedReader reader = new BufferedReader(new InputStreamReader(inputStream));
         if (inputStream!=null) {
@@ -47,7 +47,7 @@ public class PhrasalVerbsActivity extends Activity {
         inputStream.close();
 
         // First implement the textView
-        TextView textViewFile = (TextView) findViewById(R.id.textViewSelectedFile);
+        TextView textViewFile = (TextView) findViewById(textview);
         textViewFile.setText(buf.toString());
     }
 

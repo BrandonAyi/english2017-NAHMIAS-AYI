@@ -24,6 +24,15 @@ public class LessonsActivity extends Activity {
                 startActivity(intent);
             }
         });
+
+        TextView irregularVerbs = (TextView) findViewById(R.id.irregularVerbs);
+        irregularVerbs.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(LessonsActivity.this, IrregularVerbsActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 
 }

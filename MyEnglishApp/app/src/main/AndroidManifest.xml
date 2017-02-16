@@ -20,7 +20,9 @@
         <activity android:name=".ExercicesActivity"/>
         <activity android:name=".ImageTest1"/>
         <activity android:name=".PhrasalVerbsActivity"/>
+        <activity android:name=".IrregularVerbsActivity"/>
         <activity android:name="LessonsActivity"/>
+        <activity android:name=".ImageTest2"/>
     </application>
 
 </manifest>

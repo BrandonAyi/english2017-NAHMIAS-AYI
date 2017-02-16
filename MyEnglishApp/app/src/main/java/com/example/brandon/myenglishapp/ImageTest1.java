@@ -1,7 +1,9 @@
 package com.example.brandon.myenglishapp;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.ImageView;
 
 /**
@@ -9,18 +11,35 @@ import android.widget.ImageView;
  */
 
 public class ImageTest1 extends Activity {
+
+    static int score=0;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.image_test1);
 
-        ImageView imageView11 = (ImageView) findViewById(R.id.imageView11);
-        imageView11.setImageResource(R.drawable.sample01);
+        ImageView imageView1 = (ImageView) findViewById(R.id.imageView01);
+        imageView1.setImageResource(R.drawable.sample01);
 
-        ImageView imageView12 = (ImageView) findViewById(R.id.imageView12);
-        imageView12.setImageResource(R.drawable.sample02);
+        ImageView imageView2 = (ImageView) findViewById(R.id.imageView02);
+        imageView2.setImageResource(R.drawable.sample02);
 
-        ImageView imageView14 = (ImageView) findViewById(R.id.imageView14);
-        imageView14.setImageResource(R.drawable.sample04);
+        ImageView imageView3 = (ImageView) findViewById(R.id.imageView03);
+        imageView3.setImageResource(R.drawable.sample03);
+
+        ImageClik(imageView1);
+        ImageClik(imageView2);
+        ImageClik(imageView3);
+    }
+
+    public void ImageClik(ImageView imageSelected) {
+        imageSelected.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(ImageTest1.this, ImageTest2.class);
+                startActivity(intent);
+            }
+        });
     }
 }

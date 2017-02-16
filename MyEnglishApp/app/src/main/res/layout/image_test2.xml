@@ -26,7 +26,7 @@
                 android:layout_height="40dp"></Space>
 
             <TextView
-                android:text="Which picture represents a famous tower in London ?"
+                android:text="Which picture represents the big tower on which King Kong was when he was killed by the Americans?"
                 android:gravity="center"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -37,24 +37,25 @@
                 android:layout_height="20dp"></Space>
 
             <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                app:srcCompat="@drawable/sample03"
-                android:id="@+id/imageView03" />
+                android:layout_width="271dp"
+                android:layout_height="272dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/sample04"
+                android:id="@+id/imageView04" />
 
             <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_width="304dp"
+                android:layout_height="303dp"
                 android:layout_gravity="center"
-                app:srcCompat="@drawable/sample02"
-                android:id="@+id/imageView02" />
+                app:srcCompat="@drawable/sample05"
+                android:id="@+id/imageView05" />
 
             <ImageView
-                android:layout_width="264dp"
-                android:layout_height="140dp"
+                android:layout_width="358dp"
+                android:layout_height="342dp"
                 android:layout_gravity="center"
-                app:srcCompat="@drawable/sample01"
-                android:id="@+id/imageView01" />
+                app:srcCompat="@drawable/sample06"
+                android:id="@+id/imageView06" />
 
         </LinearLayout>
     </ScrollView>
