@@ -29,19 +29,19 @@ public class ScoreActivity extends Activity {
         TabHost host = (TabHost)findViewById(R.id.tabHost);
         host.setup();
 
-        //Tab 1
+        //Tab 1 AVEC LE SCORE ET LES BOUTTONS DE RETOUR AU MENU ET POUR REFAIRE LEXERCICE
         TabHost.TabSpec spec = host.newTabSpec("SCORE");
         spec.setContent(R.id.score);
         spec.setIndicator("SCORE");
         host.addTab(spec);
 
-        //Tab 2
+        //Tab 2 AVEC LA CORRECTION DU QCM
         spec = host.newTabSpec("CORRECTION QCM");
         spec.setContent(R.id.correction1);
         spec.setIndicator("CORRECTION QCM");
         host.addTab(spec);
 
-        //Tab 3
+        //Tab 3 AVEC LA CORRECTION DES IMAGES TESTS
         spec = host.newTabSpec("CORRECTION IMAGE TEST");
         spec.setContent(R.id.correction2);
         spec.setIndicator("CORRECTION IMAGE TEST");
@@ -49,7 +49,7 @@ public class ScoreActivity extends Activity {
 
         textResult = ((TextView) findViewById(R.id.textViewScore));
 
-//CAS OU L'EXERCICE ETAIT LE QCM
+        //CAS OU L'EXERCICE ETAIT LE QCM
         if (getIntent().getStringExtra("exercice").equals("QCM")) {
 
             host.getTabWidget().getChildTabViewAt(2).setEnabled(false); //DESACTIVER L'ONGLET DE LA CORRECTION DE IMAGE TEST
@@ -66,7 +66,7 @@ public class ScoreActivity extends Activity {
                 }
             });
 
-//CAS OU L'EXERCICE ETAIT LE TEST DES IMAGES
+        //CAS OU L'EXERCICE ETAIT LE TEST DES IMAGES
         } else if (getIntent().getStringExtra("exercice").equals("ImageTest")) {
 
             //LES IMAGES A AFFICHER DANS L'ONGLET CORRECTION IMAGE TEST

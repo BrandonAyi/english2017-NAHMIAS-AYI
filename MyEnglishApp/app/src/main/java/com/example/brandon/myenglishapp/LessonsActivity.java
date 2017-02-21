@@ -11,6 +11,8 @@ import android.widget.TextView;
  */
 
 public class LessonsActivity extends Activity {
+
+    //PAGE OU IL Y A LA LISTE DES LECONS
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

@@ -41,7 +41,6 @@ public class ImageTest1 extends Activity {
                     imageScore++;
                 }
                 Intent intent = new Intent(ImageTest1.this, ImageTest2.class);
-                //intent.putExtra("score", imageScore);
                 startActivity(intent);
             }
         });

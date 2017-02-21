@@ -31,6 +31,7 @@ public class PhrasalVerbsActivity extends Activity {
 
     }
 
+    //METHODE QUI PERMET D'ECRIRE DANS UN TEXTVIEW A PARTIR D'UNE RESSOURCE(UN FICHIER TXT)
     public void PlayWithRawFiles(int resource, int textview) throws IOException {
         String str="";
         StringBuffer buf = new StringBuffer();

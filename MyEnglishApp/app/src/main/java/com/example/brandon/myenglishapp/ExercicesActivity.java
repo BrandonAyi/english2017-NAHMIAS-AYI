@@ -12,6 +12,7 @@ import android.widget.TextView;
 
 public class ExercicesActivity extends Activity {
 
+    //PAGE OU IL Y A LA LISTE DES EXERCICES
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

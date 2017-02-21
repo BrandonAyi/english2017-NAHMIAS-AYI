@@ -1,11 +1,9 @@
 package com.example.brandon.myenglishapp;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
-import android.widget.Button;
-import android.widget.RadioGroup;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
@@ -15,6 +13,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        //BOUTON POUR ALLER A LA PAGE DES EXERCICES
         TextView exercicesButton = (TextView) findViewById(R.id.exercices);
         exercicesButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -24,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        //BOUTON POUR ALLER A LA PAGE DES LECONS
         TextView lessonsButton = (TextView) findViewById(R.id.lessons);
         lessonsButton.setOnClickListener(new View.OnClickListener() {
             @Override
