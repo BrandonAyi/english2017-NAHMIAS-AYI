@@ -34,5 +34,4 @@ public class LessonsActivity extends Activity {
             }
         });
     }
-
 }

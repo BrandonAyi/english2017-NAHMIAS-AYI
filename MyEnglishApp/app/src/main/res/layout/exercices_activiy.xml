@@ -26,4 +26,17 @@
         android:layout_height="wrap_content"
         android:id="@+id/imageTest"
         android:textSize="18sp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="30dp"></Space>
+
+    <TextView
+        android:text="CORRECT TENSE"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/correctTense"
+        android:textSize="18sp" />
+
 </LinearLayout>

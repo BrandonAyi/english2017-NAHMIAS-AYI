@@ -12,7 +12,7 @@ import android.widget.ImageView;
 
 public class ImageTest1 extends Activity {
 
-    static int score=0;
+    static int imageScore=0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,11 +33,15 @@ public class ImageTest1 extends Activity {
         ImageClik(imageView3);
     }
 
-    public void ImageClik(ImageView imageSelected) {
+    public void ImageClik(final ImageView imageSelected) {
         imageSelected.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                if (imageSelected.getId() == R.id.imageView01) {
+                    imageScore++;
+                }
                 Intent intent = new Intent(ImageTest1.this, ImageTest2.class);
+                //intent.putExtra("score", imageScore);
                 startActivity(intent);
             }
         });

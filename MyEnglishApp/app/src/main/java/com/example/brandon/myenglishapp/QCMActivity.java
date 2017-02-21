@@ -32,7 +32,8 @@ public class QCMActivity extends Activity{
             public void onClick(View v) {
                 verifyScore();
                 Intent intent = new Intent(QCMActivity.this, ScoreActivity.class);
-                intent.putExtra("score", score);
+                intent.putExtra("exercice","QCM");
+                intent.putExtra("QCMscore", score);
                 score=0;
                 startActivity(intent);
             }

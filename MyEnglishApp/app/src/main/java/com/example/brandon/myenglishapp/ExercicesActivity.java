@@ -4,7 +4,6 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
 import android.widget.TextView;
 
 /**
@@ -32,6 +31,15 @@ public class ExercicesActivity extends Activity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(ExercicesActivity.this, ImageTest1.class);
+                startActivity(intent);
+            }
+        });
+
+        TextView correctTense = (TextView) findViewById(R.id.correctTense);
+        correctTense.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(ExercicesActivity.this, CorrectTenseActivity.class);
                 startActivity(intent);
             }
         });
