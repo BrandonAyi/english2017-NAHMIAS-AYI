@@ -22,13 +22,13 @@ public class TimeActivity extends Activity {
         tab.addTab(spec1);
 
         TabHost.TabSpec spec2 = tab.newTabSpec("PAST");
-        spec1.setIndicator("PAST");
-        spec1.setContent(R.id.Past);
+        spec2.setIndicator("PAST");
+        spec2.setContent(R.id.Past);
         tab.addTab(spec2);
 
         TabHost.TabSpec spec3 = tab.newTabSpec("FUTURE");
-        spec1.setIndicator("FUTURE");
-        spec1.setContent(R.id.Future);
+        spec3.setIndicator("FUTURE");
+        spec3.setContent(R.id.Future);
         tab.addTab(spec3);
     }
 
