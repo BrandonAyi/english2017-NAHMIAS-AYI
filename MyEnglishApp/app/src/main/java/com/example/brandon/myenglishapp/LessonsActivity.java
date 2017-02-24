@@ -6,9 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
-/**
- * Created by brandon on 14/02/17.
- */
+
 
 public class LessonsActivity extends Activity {
 
@@ -35,5 +33,17 @@ public class LessonsActivity extends Activity {
                 startActivity(intent);
             }
         });
+
+        TextView time = (TextView) findViewById(R.id.time);
+        time.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(LessonsActivity.this, TimeActivity.class);
+                startActivity(intent);
+            }
+        });
+
+
+
     }
 }

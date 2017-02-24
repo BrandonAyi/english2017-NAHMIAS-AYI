@@ -3,6 +3,14 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <TextView
+        android:text="Phrasal verbs"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/phrasalVerbs"
+        android:textSize="18sp" />
+
     <Space
         android:layout_width="match_parent"
         android:layout_height="30dp"></Space>
@@ -20,10 +28,11 @@
         android:layout_height="30dp"></Space>
 
     <TextView
-        android:text="Phrasal verbs"
+        android:text="How to use different times"
         android:gravity="center"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/phrasalVerbs"
-        android:textSize="18sp" />
+        android:id="@+id/time"
+        android:textSize="18sp"/>
+
 </LinearLayout>
