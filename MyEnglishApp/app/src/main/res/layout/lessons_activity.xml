@@ -35,4 +35,16 @@
         android:id="@+id/time"
         android:textSize="18sp"/>
 
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="30dp"></Space>
+
+    <TextView
+        android:text="AS/LIKE"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/asLike"
+        android:textSize="18sp"/>
+
 </LinearLayout>

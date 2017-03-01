@@ -25,6 +25,8 @@
         <activity android:name=".ImageTest2"/>
         <activity android:name=".CorrectTenseActivity"/>
         <activity android:name=".TimeActivity"/>
+        <activity android:name=".AsLikeLessonActivity"/>
+        <activity android:name=".AsLikeExerciceActivity"/>
     </application>
 
 </manifest>

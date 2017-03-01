@@ -43,7 +43,14 @@ public class LessonsActivity extends Activity {
             }
         });
 
-
+        TextView asLike = (TextView) findViewById(R.id.asLike);
+        asLike.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(LessonsActivity.this, AsLikeLessonActivity.class);
+                startActivity(intent);
+            }
+        });
 
     }
 }
