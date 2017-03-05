@@ -12,6 +12,12 @@ import android.widget.TextView;
 
 public class ExercicesActivity extends Activity {
 
+    @Override
+    public void onBackPressed()
+    {
+        ExercicesActivity.this.finish();
+    }
+
     //PAGE OU IL Y A LA LISTE DES EXERCICES
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -41,6 +47,15 @@ public class ExercicesActivity extends Activity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(ExercicesActivity.this, CorrectTenseActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        TextView QCM2 = (TextView) findViewById(R.id.QCM2);
+        QCM2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(ExercicesActivity.this, QCM2Activity.class);
                 startActivity(intent);
             }
         });

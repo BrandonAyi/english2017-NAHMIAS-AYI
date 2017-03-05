@@ -154,6 +154,34 @@
 
                 </LinearLayout>
 
+                <LinearLayout
+                    android:id="@+id/correction3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:text="1.A The United States shares a very long border with Canada.
+                            2.B We'll leave for the theatre as soon as Jennifer arrives.
+                            3.D How long have you been working in your current job
+                            4.D Sean was very upset yesterday, you shouldn't have spoken to him so harshly
+                            5.C One of the biggest inconveniences of travelling by car is that it is much slower than flying.
+                            6.C Houses are being built along this road, and this is causing major delays to the morning traffic at the moment."
+                            android:gravity="center"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/textView89"
+                            android:layout_weight="1" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
             </FrameLayout>
         </LinearLayout>
     </TabHost>

@@ -9,6 +9,12 @@ import android.widget.*;
 public class TimeActivity extends Activity {
 
     @Override
+    public void onBackPressed()
+    {
+        TimeActivity.this.finish();
+    }
+
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.time);

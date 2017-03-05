@@ -12,6 +12,12 @@ import java.io.IOException;
 public class IrregularVerbsActivity extends PhrasalVerbsActivity {
 
     @Override
+    public void onBackPressed()
+    {
+        IrregularVerbsActivity.this.finish();
+    }
+
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.irregular_verbs);

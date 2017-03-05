@@ -22,6 +22,12 @@ public class QCMActivity extends Activity{
     RadioGroup radioGroup6 = null;
 
     @Override
+    public void onBackPressed()
+    {
+        QCMActivity.this.finish();
+    }
+
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.qcm_exercice);

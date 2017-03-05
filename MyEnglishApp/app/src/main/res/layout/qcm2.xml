@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+    <TextView
+        android:text="Grammar and vocabulary QCM"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="29dp"
+        android:id="@+id/textView57" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_weight="0.00"
+        android:layout_height="20dp"></Space>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:orientation="horizontal">
+
+    <TextView
+        android:text="1. The United States shares a very long border With ..."
+        android:layout_width="298dp"
+        android:layout_height="29dp"
+        android:id="@+id/textView59"
+        android:textAlignment="center"
+        android:textStyle="normal|bold" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:inputType="textPersonName"
+            android:hint="A,B,.."
+            android:ems="10"
+            android:id="@+id/editText" />
+
+
+    </RadioGroup>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:text="A. Canada"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView60"
+            android:layout_weight="1" />
+
+        <TextView
+            android:text="B. the Canada"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView61"
+            android:layout_weight="1" />
+
+    </RadioGroup>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:text="C. Canadian"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView62"
+            android:layout_weight="1" />
+
+        <TextView
+            android:text="D. the Canada's"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView63"
+            android:layout_weight="1" />
+
+    </RadioGroup>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_weight="0.00"
+        android:layout_height="20dp"></Space>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:text="2. We'll leave for the theatre as soon as Jennifer ..."
+            android:layout_width="304dp"
+            android:layout_height="match_parent"
+            android:id="@+id/textView64"
+            android:gravity="center"
+            android:textStyle="normal|bold" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:inputType="textPersonName"
+            android:hint="A,B,.."
+            android:ems="10"
+            android:id="@+id/editText2" />
+
+    </RadioGroup>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:text="A. arrived"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView65"
+            android:layout_weight="1" />
+
+        <TextView
+            android:text="B. arrives"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView66"
+            android:layout_weight="1" />
+
+    </RadioGroup>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:text="C. will arrive"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView67"
+            android:layout_weight="1" />
+
+        <TextView
+            android:text="D. have arrived"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView68"
+            android:layout_weight="1" />
+
+    </RadioGroup>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_weight="0.00"
+        android:layout_height="20dp"></Space>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:text="3. How long ... in your current job"
+            android:layout_width="304dp"
+            android:layout_height="match_parent"
+            android:id="@+id/textView69"
+            android:gravity="center"
+            android:textStyle="normal|bold" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:inputType="textPersonName"
+            android:hint="A,B,.."
+            android:ems="10"
+            android:id="@+id/editText3" />
+
+    </RadioGroup>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:text="A. do you work"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView70"
+            android:layout_weight="1" />
+
+        <TextView
+            android:text="B. are you working"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView71"
+            android:layout_weight="1" />
+
+    </RadioGroup>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:text="C. did you work"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView72"
+            android:layout_weight="1" />
+
+        <TextView
+            android:text="D. have you been working"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView73"
+            android:layout_weight="1" />
+
+    </RadioGroup>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_weight="0.00"
+        android:layout_height="20dp"></Space>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:text="4. Sean was very upset yesterday, you ... to him so harshly."
+            android:layout_width="304dp"
+            android:layout_height="match_parent"
+            android:id="@+id/textView74"
+            android:gravity="center"
+            android:textStyle="normal|bold" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:inputType="textPersonName"
+            android:hint="A,B,.."
+            android:ems="10"
+            android:id="@+id/editText4" />
+
+    </RadioGroup>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:text="A. should have speak"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView75"
+            android:layout_weight="1" />
+
+        <TextView
+            android:text="B. should have spoken"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView76"
+            android:layout_weight="1" />
+
+    </RadioGroup>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:text="shouldn't have speak"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView77"
+            android:layout_weight="1" />
+
+        <TextView
+            android:text="D. shouldn't have spoken"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView78"
+            android:layout_weight="1" />
+
+    </RadioGroup>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_weight="0.00"
+        android:layout_height="20dp"></Space>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:text="5. One of the biggest ... of travelling by car is that it is much slower than flying."
+            android:layout_width="304dp"
+            android:layout_height="match_parent"
+            android:id="@+id/textView79"
+            android:gravity="center"
+            android:textStyle="normal|bold" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:inputType="textPersonName"
+            android:hint="A,B,.."
+            android:ems="10"
+            android:id="@+id/editText5" />
+
+    </RadioGroup>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:text="A. inconvenient"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView80"
+            android:layout_weight="1" />
+
+        <TextView
+            android:text="B. inconvenience"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView81"
+            android:layout_weight="1" />
+
+    </RadioGroup>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:text="C. inconveniences"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView82"
+            android:layout_weight="1" />
+
+        <TextView
+            android:text="inconvenients"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView83"
+            android:layout_weight="1" />
+
+    </RadioGroup>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_weight="0.00"
+        android:layout_height="20dp"></Space>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:text="6. Houses ... along this road, and this is causing major delays to the morning traffic at the moment."
+            android:layout_width="304dp"
+            android:layout_height="match_parent"
+            android:id="@+id/textView84"
+            android:gravity="center"
+            android:textStyle="normal|bold" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:inputType="textPersonName"
+            android:hint="A,B,.."
+            android:ems="10"
+            android:id="@+id/editText6" />
+
+    </RadioGroup>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:text="A. are built"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView85"
+            android:layout_weight="1" />
+
+        <TextView
+            android:text="B. are building"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView86"
+            android:layout_weight="1" />
+
+    </RadioGroup>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:text="C. are being built"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView87"
+            android:layout_weight="1" />
+
+        <TextView
+            android:text="D. have been building"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView88"
+            android:layout_weight="1" />
+
+    </RadioGroup>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_weight="0.00"
+                android:layout_height="20dp"></Space>
+
+            <Button
+                android:text="Check Score"
+                android:textColor="#ff2600"
+                android:layout_gravity="center"
+                android:layout_width="266dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/buttonScore" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

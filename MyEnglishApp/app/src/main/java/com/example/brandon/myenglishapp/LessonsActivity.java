@@ -10,6 +10,12 @@ import android.widget.TextView;
 
 public class LessonsActivity extends Activity {
 
+    @Override
+    public void onBackPressed()
+    {
+        LessonsActivity.this.finish();
+    }
+
     //PAGE OU IL Y A LA LISTE DES LECONS
     @Override
     protected void onCreate(Bundle savedInstanceState) {

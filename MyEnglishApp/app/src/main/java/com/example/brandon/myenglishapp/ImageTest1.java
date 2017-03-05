@@ -15,6 +15,12 @@ public class ImageTest1 extends Activity {
     static int imageScore=0;
 
     @Override
+    public void onBackPressed()
+    {
+        ImageTest1.this.finish();
+    }
+
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.image_test1);

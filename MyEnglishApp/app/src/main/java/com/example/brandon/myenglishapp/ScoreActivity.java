@@ -21,6 +21,12 @@ public class ScoreActivity extends Activity {
     Button homeMenu;
 
     @Override
+    public void onBackPressed()
+    {
+        ScoreActivity.this.finish();
+    }
+
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.score_print);
@@ -45,6 +51,12 @@ public class ScoreActivity extends Activity {
         spec = host.newTabSpec("CORRECTION IMAGE TEST");
         spec.setContent(R.id.correction2);
         spec.setIndicator("CORRECTION IMAGE TEST");
+        host.addTab(spec);
+
+        //Tab 4 AVEC LA CORRECTION DU QCM2
+        spec = host.newTabSpec("CORRECTION QCM2");
+        spec.setContent(R.id.correction3);
+        spec.setIndicator("CORRECTION QCM2");
         host.addTab(spec);
 
         textResult = ((TextView) findViewById(R.id.textViewScore));
@@ -86,6 +98,24 @@ public class ScoreActivity extends Activity {
                 @Override
                 public void onClick(View v) {
                     Intent intent = new Intent(ScoreActivity.this, ImageTest1.class);
+                    startActivity(intent);
+                }
+            });
+        }
+
+        //CAS OU L'EXERCICE ETAIT LE QCM2
+        if (getIntent().getStringExtra("exercice").equals("QCM2")) {
+
+            host.getTabWidget().getChildTabViewAt(2).setEnabled(false); //DESACTIVER L'ONGLET DE LA CORRECTION DE IMAGE TEST
+            host.getTabWidget().getChildTabViewAt(1).setEnabled(false); //DESACTIVER L'ONGLET DE LA CORRECTION QCM
+            mark = getIntent().getIntExtra("QCMscore",0);
+            textResult.setText("YOUR MARK IS "+mark+"/6");
+
+            returnButton = (Button) findViewById(R.id.returnButton);
+            returnButton.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    Intent intent = new Intent(ScoreActivity.this, QCM2Activity.class);
                     startActivity(intent);
                 }
             });
