@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="30dp"></Space>
+
+            <TextView
+                android:text="AS ou LIKE"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView12"
+                android:textSize="18sp"
+                android:textStyle="normal|bold" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="30dp"></Space>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="27dp"
+                android:weightSum="1">
+
+
+                <TextView
+                    android:text="LIKE"
+                    android:textColor="#ff0008"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView45"
+                    android:layout_weight="0.03" />
+
+                <TextView
+                    android:text=": comme, à la manière de"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView46"
+                    android:layout_weight="0.03" />
+            </LinearLayout>
+
+            <TextView
+                android:text="    On l'emploie lorsque la deuxième partie de la comparaison est un nom, un gérondif ou un pronom :"
+
+                android:layout_width="match_parent"
+                android:layout_height="47dp"
+                android:id="@+id/textView13" />
+
+            <TextView
+                android:text="-> Dave looks LIKE his father.
+                -> Don't act LIKE me !
+                -> Talking to her is LIKE talking to a brick wall."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView50" />
+
+            <TextView
+                android:text="Cela revient à comparer deux choses, à faire remarquer la similitude entre elles."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView51" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="30dp"></Space>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="28dp"
+                android:weightSum="1">
+
+                <TextView
+                    android:text="AS"
+                    android:textColor="#ff0008"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView47"
+                    android:layout_weight="0.03" />
+
+                <TextView
+                    android:text=": comme, à la manière de, en tant que "
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView48"
+                    android:layout_weight="0.03" />
+            </LinearLayout>
+
+            <TextView
+                android:text="On l'emploie lorsque la deuxième partie de la comparaison est un verbe, une proposition ou encore une préposition"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView49" />
+
+            <TextView
+                android:text="-> Don't do as I do !
+                -> It started raining, as I said it would.
+                -> Prices are very high, as in the 1990s. (as they were)"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:id="@+id/textView52" />
+
+            <TextView
+                android:text="As s'emploie également devant un nom, lorsque 'comme' a le sens de en tant que et se réfère à la fonction, au métier de quelqu'un  :"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:id="@+id/textView53" />
+
+            <TextView
+                android:text="-> She works as a nurse."
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:id="@+id/textView54" />
+
+            <TextView
+                android:text="Remarque :
+
+ She speaks like a teacher : elle parle comme un professeur (à la manière d'un professeur, mais elle n'est pas professeur)
+
+ She speaks as a teacher : elle parle en tant que professeur (elle est professeur)"
+                android:layout_width="match_parent"
+                android:layout_height="157dp"
+                android:id="@+id/textView55" />
+
+            <TextView
+                android:text=" En complément :
+
+ On emploie like (ou such as) pour donner des exemples:
+
+ He prefers classical composers, like Chopin.
+
+She prefers French actors, such as Delon."
+                android:layout_width="match_parent"
+                android:layout_height="126dp"
+                android:id="@+id/textView56" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="1">
+
+                <TextView
+                    android:text="Now let's practice !"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView58"
+                    android:layout_weight="0.19"
+                    android:textStyle="normal|bold|italic" />
+
+                <Button
+                    android:text="Go exercice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/asLikeButton" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
