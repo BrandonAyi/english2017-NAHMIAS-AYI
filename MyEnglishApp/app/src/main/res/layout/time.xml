@@ -30,99 +30,119 @@
                     android:layout_height="match_parent"
                     android:orientation="vertical">
 
-                    <HorizontalScrollView
+                    <ScrollView
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:fillViewport="true">
+                        android:layout_height="match_parent">
 
                         <LinearLayout
                             android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:orientation="horizontal">
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical" >
 
-                            <TableLayout
+                            <HorizontalScrollView
                                 android:layout_width="match_parent"
-                                android:layout_height="match_parent">
+                                android:layout_height="match_parent"
+                                android:layout_marginBottom="40dp"
+                                android:fillViewport="true">
 
-                                <TableRow
+                                <LinearLayout
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
-                                    android:layout_marginBottom="20dp">
+                                    android:orientation="horizontal">
 
-                                    <TextView
-                                        android:id="@+id/textView24"
-                                        android:layout_width="wrap_content"
-                                        android:layout_height="wrap_content"
-                                        android:layout_weight="1"
-                                        android:gravity="center"
-                                        android:text="Simple" />
+                                    <TableLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
 
-                                    <TextView
-                                        android:id="@+id/textView23"
-                                        android:layout_width="wrap_content"
-                                        android:layout_height="wrap_content"
-                                        android:layout_weight="1"
-                                        android:gravity="center"
-                                        android:text="Continuous" />
+                                        <TableRow
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:layout_marginBottom="20dp">
 
-                                    <TextView
-                                        android:id="@+id/textView15"
-                                        android:layout_width="wrap_content"
-                                        android:layout_height="wrap_content"
-                                        android:layout_weight="1"
-                                        android:gravity="center"
-                                        android:text="Perfect Simple" />
+                                            <TextView
+                                                android:id="@+id/textView24"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:layout_weight="1"
+                                                android:gravity="center"
+                                                android:text="Simple" />
 
-                                    <TextView
-                                        android:id="@+id/textView8"
-                                        android:layout_width="wrap_content"
-                                        android:layout_height="wrap_content"
-                                        android:layout_weight="1"
-                                        android:gravity="center"
-                                        android:text="Perfect Continuous" />
-                                </TableRow>
+                                            <TextView
+                                                android:id="@+id/textView23"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:layout_weight="1"
+                                                android:gravity="center"
+                                                android:text="Continuous" />
 
-                                <TableRow
-                                    android:layout_width="match_parent"
-                                    android:layout_height="match_parent">
+                                            <TextView
+                                                android:id="@+id/textView15"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:layout_weight="1"
+                                                android:gravity="center"
+                                                android:text="Perfect Simple" />
 
-                                    <TextView
-                                        android:id="@+id/textView27"
-                                        android:layout_width="wrap_content"
-                                        android:layout_height="wrap_content"
-                                        android:layout_gravity="center"
-                                        android:layout_weight="1"
-                                        android:text="I play" />
+                                            <TextView
+                                                android:id="@+id/textView8"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:layout_weight="1"
+                                                android:gravity="center"
+                                                android:text="Perfect Continuous" />
+                                        </TableRow>
 
-                                    <TextView
-                                        android:id="@+id/textView28"
-                                        android:layout_width="wrap_content"
-                                        android:layout_height="wrap_content"
-                                        android:layout_gravity="center"
-                                        android:layout_weight="1"
-                                        android:text="I am playing" />
+                                        <TableRow
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent">
 
-                                    <TextView
-                                        android:id="@+id/textView29"
-                                        android:layout_width="wrap_content"
-                                        android:layout_height="wrap_content"
-                                        android:layout_gravity="center"
-                                        android:layout_weight="1"
-                                        android:text="I have played" />
+                                            <TextView
+                                                android:id="@+id/textView27"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:layout_gravity="center"
+                                                android:layout_weight="1"
+                                                android:text="I play" />
 
-                                    <TextView
-                                        android:id="@+id/textView30"
-                                        android:layout_width="wrap_content"
-                                        android:layout_height="wrap_content"
-                                        android:layout_gravity="center"
-                                        android:layout_weight="1"
-                                        android:text="I have been playing" />
+                                            <TextView
+                                                android:id="@+id/textView28"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:layout_gravity="center"
+                                                android:layout_weight="1"
+                                                android:text="I am playing" />
 
-                                </TableRow>
+                                            <TextView
+                                                android:id="@+id/textView29"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:layout_gravity="center"
+                                                android:layout_weight="1"
+                                                android:text="I have played" />
 
-                            </TableLayout>
+                                            <TextView
+                                                android:id="@+id/textView30"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:layout_gravity="center"
+                                                android:layout_weight="1"
+                                                android:text="I have been playing" />
+
+                                        </TableRow>
+
+                                    </TableLayout>
+                                </LinearLayout>
+                            </HorizontalScrollView>
+
+                            <TextView
+                                android:id="@+id/textView90"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="left"
+                                android:text="QUAND LES UTILISER : \n \n  \n PRESENT SIMPLE : \n \n \t Le présent simple est le temps de la vérité générale. Il désigne donc une action qui se répète dans le temps (I go there every Sunday) ou qui est toujours vraie (water boils at 100°C). \n \n PRESENT CONTINUS : \n \n \t Le présent continu correspond tout d’abord à notre « être en train de faire », il désigne donc une action qui se produit au moment où l’on parle et qui n’est donc pas terminée. \n \n PERFECT SIMPLE : \n \n \t  Le passé composé anglais s’emploie pour décrire une action passée qui a un impact sur le temps présent. \n \n PERFECT CONTINUOUS : \n \n \t Décris une action du passé qui se poursuit de nos jours" />
+
                         </LinearLayout>
-                    </HorizontalScrollView>
+                    </ScrollView>
 
                 </LinearLayout>
 
@@ -132,98 +152,119 @@
                     android:layout_height="match_parent"
                     android:orientation="vertical">
 
-                    <HorizontalScrollView
+                    <ScrollView
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:fillViewport="true">
+                        android:layout_height="match_parent">
 
                         <LinearLayout
                             android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:orientation="horizontal">
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical" >
 
-                            <TableLayout
+                            <HorizontalScrollView
                                 android:layout_width="match_parent"
-                                android:layout_height="match_parent">
+                                android:layout_height="match_parent"
+                                android:layout_marginBottom="40dp"
+                                android:fillViewport="true">
 
-                                <TableRow
+                                <LinearLayout
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
-                                    android:layout_marginBottom="20dp">
+                                    android:orientation="horizontal">
 
-                                    <TextView
-                                        android:id="@+id/textView32"
-                                        android:layout_width="wrap_content"
-                                        android:layout_height="wrap_content"
-                                        android:layout_gravity="center"
-                                        android:layout_weight="1"
-                                        android:text="Simple" />
+                                    <TableLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
 
-                                    <TextView
-                                        android:id="@+id/textView31"
-                                        android:layout_width="wrap_content"
-                                        android:layout_height="wrap_content"
-                                        android:layout_gravity="center"
-                                        android:layout_weight="1"
-                                        android:text="Continuous" />
+                                        <TableRow
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:layout_marginBottom="20dp">
 
-                                    <TextView
-                                        android:id="@+id/textView26"
-                                        android:layout_width="wrap_content"
-                                        android:layout_height="wrap_content"
-                                        android:layout_gravity="center"
-                                        android:layout_weight="1"
-                                        android:text="Perfect Simple" />
+                                            <TextView
+                                                android:id="@+id/textView32"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:layout_gravity="center"
+                                                android:layout_weight="1"
+                                                android:text="Simple" />
 
-                                    <TextView
-                                        android:id="@+id/textView25"
-                                        android:layout_width="wrap_content"
-                                        android:layout_height="wrap_content"
-                                        android:layout_gravity="center"
-                                        android:layout_weight="1"
-                                        android:text="Perfect Continuous" />
-                                </TableRow>
+                                            <TextView
+                                                android:id="@+id/textView31"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:layout_gravity="center"
+                                                android:layout_weight="1"
+                                                android:text="Continuous" />
 
-                                <TableRow
-                                    android:layout_width="match_parent"
-                                    android:layout_height="match_parent">
+                                            <TextView
+                                                android:id="@+id/textView26"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:layout_gravity="center"
+                                                android:layout_weight="1"
+                                                android:text="Perfect Simple" />
 
-                                    <TextView
-                                        android:id="@+id/textView36"
-                                        android:layout_width="wrap_content"
-                                        android:layout_height="wrap_content"
-                                        android:layout_gravity="center"
-                                        android:layout_weight="1"
-                                        android:text="I played" />
+                                            <TextView
+                                                android:id="@+id/textView25"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:layout_gravity="center"
+                                                android:layout_weight="1"
+                                                android:text="Perfect Continuous" />
+                                        </TableRow>
 
-                                    <TextView
-                                        android:id="@+id/textView35"
-                                        android:layout_width="wrap_content"
-                                        android:layout_height="wrap_content"
-                                        android:layout_gravity="center"
-                                        android:layout_weight="1"
-                                        android:text="I was playing" />
+                                        <TableRow
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent">
 
-                                    <TextView
-                                        android:id="@+id/textView34"
-                                        android:layout_width="wrap_content"
-                                        android:layout_height="wrap_content"
-                                        android:layout_gravity="center"
-                                        android:layout_weight="1"
-                                        android:text="I had played" />
+                                            <TextView
+                                                android:id="@+id/textView36"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:layout_gravity="center"
+                                                android:layout_weight="1"
+                                                android:text="I played" />
 
-                                    <TextView
-                                        android:id="@+id/textView33"
-                                        android:layout_width="wrap_content"
-                                        android:layout_height="wrap_content"
-                                        android:layout_gravity="center"
-                                        android:layout_weight="1"
-                                        android:text="I had been playing" />
-                                </TableRow>
+                                            <TextView
+                                                android:id="@+id/textView35"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:layout_gravity="center"
+                                                android:layout_weight="1"
+                                                android:text="I was playing" />
 
-                            </TableLayout>
+                                            <TextView
+                                                android:id="@+id/textView34"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:layout_gravity="center"
+                                                android:layout_weight="1"
+                                                android:text="I had played" />
+
+                                            <TextView
+                                                android:id="@+id/textView33"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:layout_gravity="center"
+                                                android:layout_weight="1"
+                                                android:text="I had been playing" />
+                                        </TableRow>
+
+                                    </TableLayout>
+                                </LinearLayout>
+                            </HorizontalScrollView>
+
+                            <TextView
+                                android:id="@+id/textView91"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="QUAND LES UTILISER : \n \n \n PAST SIMPLE : \n \n \t Il permet de décrire une action passée et terminée, qui s’est déroulée dans un contexte bien défini qui la rattache au passé. \n \n PAST CONTINOUS : \n \n \t Il permet de décrire une action qui s’est produite à un moment du passé, en insistant sur la durée. \n \n PAST PERFECT SIMPLE : \n \n \t Comme notre plus-que-parfait, ce temps permet de décrire une action qui s’est déroulée dans le passé, avant une autre plus récente. \n \n PAST PERFECT CONTINUOUS : \n \n \t I had been playing for five hours when they arrived (j’avais joué pendant cinq heures lorsqu’ils arrivèrent).
+
+Ce temps permet de mettre l’accent sur la première action, qui a duré un certain temps." />
+
                         </LinearLayout>
-                    </HorizontalScrollView>
+                    </ScrollView>
 
                 </LinearLayout>
 
@@ -233,100 +274,119 @@
                     android:layout_height="match_parent"
                     android:orientation="vertical">
 
-                    <HorizontalScrollView
+                    <ScrollView
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:fillViewport="true">
+                        android:layout_height="match_parent">
 
                         <LinearLayout
                             android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:orientation="horizontal">
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical" >
 
-                            <TableLayout
+                            <HorizontalScrollView
                                 android:layout_width="match_parent"
-                                android:layout_height="match_parent">
+                                android:layout_height="match_parent"
+                                android:layout_marginBottom="40dp"
+                                android:fillViewport="true">
 
-                                <TableRow
+                                <LinearLayout
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
-                                    android:layout_marginBottom="20dp">
+                                    android:orientation="horizontal">
 
-                                    <TextView
-                                        android:id="@+id/textView40"
-                                        android:layout_width="wrap_content"
-                                        android:layout_height="wrap_content"
-                                        android:layout_gravity="center"
-                                        android:layout_weight="1"
-                                        android:text="Will" />
+                                    <TableLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
 
-                                    <TextView
-                                        android:id="@+id/textView39"
-                                        android:layout_width="wrap_content"
-                                        android:layout_height="wrap_content"
-                                        android:layout_gravity="center"
-                                        android:layout_weight="1"
-                                        android:text="Present Simple" />
+                                        <TableRow
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:layout_marginBottom="20dp">
 
-                                    <TextView
-                                        android:id="@+id/textView38"
-                                        android:layout_width="wrap_content"
-                                        android:layout_height="wrap_content"
-                                        android:layout_gravity="center"
-                                        android:layout_weight="1"
-                                        android:text="Present Continuous" />
+                                            <TextView
+                                                android:id="@+id/textView40"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:layout_gravity="center"
+                                                android:layout_weight="1"
+                                                android:text="Will" />
 
-                                    <TextView
-                                        android:id="@+id/textView37"
-                                        android:layout_width="wrap_content"
-                                        android:layout_height="wrap_content"
-                                        android:layout_gravity="center"
-                                        android:layout_weight="1"
-                                        android:text="Going to" />
-                                </TableRow>
+                                            <TextView
+                                                android:id="@+id/textView39"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:layout_gravity="center"
+                                                android:layout_weight="1"
+                                                android:text="Present Simple" />
 
-                                <TableRow
-                                    android:layout_width="match_parent"
-                                    android:layout_height="match_parent">
+                                            <TextView
+                                                android:id="@+id/textView38"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:layout_gravity="center"
+                                                android:layout_weight="1"
+                                                android:text="Present Continuous" />
 
-                                    <TextView
-                                        android:id="@+id/textView44"
-                                        android:layout_width="wrap_content"
-                                        android:layout_height="wrap_content"
-                                        android:layout_gravity="center"
-                                        android:layout_marginRight="5dp"
-                                        android:layout_weight="1"
-                                        android:text="I will play " />
+                                            <TextView
+                                                android:id="@+id/textView37"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:layout_gravity="center"
+                                                android:layout_weight="1"
+                                                android:text="Going to" />
+                                        </TableRow>
 
-                                    <TextView
-                                        android:id="@+id/textView43"
-                                        android:layout_width="wrap_content"
-                                        android:layout_height="wrap_content"
-                                        android:layout_gravity="center"
-                                        android:layout_marginRight="5dp"
-                                        android:layout_weight="1"
-                                        android:text="My train leaves at \n 9 o'clock tomorrow" />
+                                        <TableRow
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent">
 
-                                    <TextView
-                                        android:id="@+id/textView42"
-                                        android:layout_width="wrap_content"
-                                        android:layout_height="wrap_content"
-                                        android:layout_gravity="center"
-                                        android:layout_marginRight="5dp"
-                                        android:layout_weight="1"
-                                        android:text="I am having a party \n this weekend" />
+                                            <TextView
+                                                android:id="@+id/textView44"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:layout_gravity="center"
+                                                android:layout_marginRight="5dp"
+                                                android:layout_weight="1"
+                                                android:text="I will play " />
 
-                                    <TextView
-                                        android:id="@+id/textView41"
-                                        android:layout_width="wrap_content"
-                                        android:layout_height="wrap_content"
-                                        android:layout_gravity="center"
-                                        android:layout_weight="1"
-                                        android:text="I am going to \n be a doctor" />
-                                </TableRow>
-                            </TableLayout>
+                                            <TextView
+                                                android:id="@+id/textView43"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:layout_gravity="center"
+                                                android:layout_marginRight="5dp"
+                                                android:layout_weight="1"
+                                                android:text="My train leaves at \n 9 o'clock tomorrow" />
+
+                                            <TextView
+                                                android:id="@+id/textView42"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:layout_gravity="center"
+                                                android:layout_marginRight="5dp"
+                                                android:layout_weight="1"
+                                                android:text="I am having a party \n this weekend" />
+
+                                            <TextView
+                                                android:id="@+id/textView41"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:layout_gravity="center"
+                                                android:layout_weight="1"
+                                                android:text="I am going to \n be a doctor" />
+                                        </TableRow>
+                                    </TableLayout>
+                                </LinearLayout>
+                            </HorizontalScrollView>
+
+                            <TextView
+                                android:id="@+id/textView92"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="QUAND LES UTILISER : \n \n \n FUTURE SIMPLE : \n \n \t Prédiction, événement futur qui se produira probablement \n \n PRESENT SIMPLE : \n \n \t Action planifiée et dont la réalisation est quasiment certaine, qui aura lieu à un moment très précis du futur : The train leaves tomorrow at 4:30 (le train partira demain à 4h30). \n \n PRESENT CONTINUOUS : \n \n \t Action planifiée dans le futur : Tonight I’m going to the cinema (ce soir je vais au cinéma). Attention à la nuance avec la forme précédente : ici, il s’agit plutôt d’une intention que d’une vérité générale. \n \n GOING TO : \n \n \t Cette forme permet d’exprimer une intention dans un futur proche : I’m going to buy a new car (je vais bientôt m’acheter une nouvelle voiture)." />
+
                         </LinearLayout>
-                    </HorizontalScrollView>
+                    </ScrollView>
 
                 </LinearLayout>
             </FrameLayout>
