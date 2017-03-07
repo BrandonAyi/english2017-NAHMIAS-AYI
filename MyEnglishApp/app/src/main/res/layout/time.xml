@@ -139,8 +139,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="left"
-                                android:text="QUAND LES UTILISER : \n \n  \n PRESENT SIMPLE : \n \n \t Le présent simple est le temps de la vérité générale. Il désigne donc une action qui se répète dans le temps (I go there every Sunday) ou qui est toujours vraie (water boils at 100°C). \n \n PRESENT CONTINUS : \n \n \t Le présent continu correspond tout d’abord à notre « être en train de faire », il désigne donc une action qui se produit au moment où l’on parle et qui n’est donc pas terminée. \n \n PERFECT SIMPLE : \n \n \t  Le passé composé anglais s’emploie pour décrire une action passée qui a un impact sur le temps présent. \n \n PERFECT CONTINUOUS : \n \n \t Décris une action du passé qui se poursuit de nos jours" />
-
+                                />
                         </LinearLayout>
                     </ScrollView>
 
@@ -259,9 +258,7 @@
                                 android:id="@+id/textView91"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:text="QUAND LES UTILISER : \n \n \n PAST SIMPLE : \n \n \t Il permet de décrire une action passée et terminée, qui s’est déroulée dans un contexte bien défini qui la rattache au passé. \n \n PAST CONTINOUS : \n \n \t Il permet de décrire une action qui s’est produite à un moment du passé, en insistant sur la durée. \n \n PAST PERFECT SIMPLE : \n \n \t Comme notre plus-que-parfait, ce temps permet de décrire une action qui s’est déroulée dans le passé, avant une autre plus récente. \n \n PAST PERFECT CONTINUOUS : \n \n \t I had been playing for five hours when they arrived (j’avais joué pendant cinq heures lorsqu’ils arrivèrent).
-
-Ce temps permet de mettre l’accent sur la première action, qui a duré un certain temps." />
+                                />
 
                         </LinearLayout>
                     </ScrollView>
@@ -382,9 +379,7 @@ Ce temps permet de mettre l’accent sur la première action, qui a duré un cer
                             <TextView
                                 android:id="@+id/textView92"
                                 android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:text="QUAND LES UTILISER : \n \n \n FUTURE SIMPLE : \n \n \t Prédiction, événement futur qui se produira probablement \n \n PRESENT SIMPLE : \n \n \t Action planifiée et dont la réalisation est quasiment certaine, qui aura lieu à un moment très précis du futur : The train leaves tomorrow at 4:30 (le train partira demain à 4h30). \n \n PRESENT CONTINUOUS : \n \n \t Action planifiée dans le futur : Tonight I’m going to the cinema (ce soir je vais au cinéma). Attention à la nuance avec la forme précédente : ici, il s’agit plutôt d’une intention que d’une vérité générale. \n \n GOING TO : \n \n \t Cette forme permet d’exprimer une intention dans un futur proche : I’m going to buy a new car (je vais bientôt m’acheter une nouvelle voiture)." />
-
+                                android:layout_height="wrap_content"/>
                         </LinearLayout>
                     </ScrollView>
 
