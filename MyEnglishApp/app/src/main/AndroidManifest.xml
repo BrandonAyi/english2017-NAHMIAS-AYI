@@ -26,7 +26,6 @@
         <activity android:name=".CorrectTenseActivity"/>
         <activity android:name=".TimeActivity"/>
         <activity android:name=".AsLikeLessonActivity"/>
-        <activity android:name=".AsLikeExerciceActivity"/>
         <activity android:name=".QCM2Activity"/>
     </application>
 

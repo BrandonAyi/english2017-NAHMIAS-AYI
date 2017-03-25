@@ -1,50 +1,106 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@android:color/darker_gray">
 
-    <TextView
-        android:text="Phrasal verbs"
-        android:gravity="center"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/phrasalVerbs"
-        android:textSize="18sp" />
-
-    <Space
-        android:layout_width="match_parent"
-        android:layout_height="30dp"></Space>
-
-    <TextView
-        android:text="Irregular verbs"
-        android:gravity="center"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/irregularVerbs"
-        android:textSize="18sp" />
+    <ImageView
+        android:layout_width="339dp"
+        android:layout_height="238dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/lessons"
+        android:id="@+id/imageView2" />
 
     <Space
         android:layout_width="match_parent"
         android:layout_height="30dp"></Space>
 
-    <TextView
-        android:text="How to use different times"
-        android:gravity="center"
+    <FrameLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/time"
-        android:textSize="18sp"/>
+        android:layout_height="50dp">
+
+        <TextView
+            android:text="Phrasal verbs"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/phrasalVerbs"
+            android:textSize="24sp"
+            android:background="@android:color/white"
+            android:textStyle="bold"
+            android:fontFamily="cursive" />
+
+    </FrameLayout>
 
     <Space
         android:layout_width="match_parent"
         android:layout_height="30dp"></Space>
 
-    <TextView
-        android:text="AS/LIKE"
-        android:gravity="center"
+    <FrameLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/asLike"
-        android:textSize="18sp"/>
+        android:layout_height="50dp">
 
+        <TextView
+            android:text="Irregular verbs"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/irregularVerbs"
+            android:textSize="24sp"
+            android:background="@android:color/white"
+            android:textStyle="bold"
+            android:fontFamily="cursive" />
+
+    </FrameLayout>
+
+
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="30dp"></Space>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <TextView
+            android:text="How to use different times"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/time"
+            android:textSize="24sp"
+            android:background="@android:color/white"
+            android:textStyle="bold"
+            android:fontFamily="cursive" />
+
+    </FrameLayout>
+
+
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="30dp"></Space>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <TextView
+            android:text="AS or LIKE ?"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/asLike"
+            android:textSize="24sp"
+            android:background="@android:color/white"
+            android:textStyle="bold"
+            android:fontFamily="cursive" />
+
+    </FrameLayout>
 </LinearLayout>

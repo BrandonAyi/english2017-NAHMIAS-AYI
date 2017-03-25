@@ -150,27 +150,6 @@ She prefers French actors, such as Delon."
                 android:layout_height="126dp"
                 android:id="@+id/textView56" />
 
-            <LinearLayout
-                android:orientation="horizontal"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:weightSum="1">
-
-                <TextView
-                    android:text="Now let's practice !"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/textView58"
-                    android:layout_weight="0.19"
-                    android:textStyle="normal|bold|italic" />
-
-                <Button
-                    android:text="Go exercice"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/asLikeButton" />
-            </LinearLayout>
-
         </LinearLayout>
     </ScrollView>
 

@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 
@@ -21,6 +22,9 @@ public class LessonsActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.lessons_activity);
+
+        ImageView imageView1 = (ImageView) findViewById(R.id.imageView2);
+        imageView1.setImageResource(R.drawable.lessons);
 
         TextView phrasalVerbs = (TextView) findViewById(R.id.phrasalVerbs);
         phrasalVerbs.setOnClickListener(new View.OnClickListener() {

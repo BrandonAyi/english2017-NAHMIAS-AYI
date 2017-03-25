@@ -100,17 +100,13 @@
                         android:layout_height="match_parent">
 
                         <TextView
-                            android:text="He was drunk: he had had one TOO MANY
-                            She killed him OUT OF jealousy.
-                            John, in WHOSE car I came home, lives next door.
-                            Why not GO away, if you don't like it here?
-                            Can you imagine HOW pleasant it was?
-                            He does everything he can TO HELP his friend"
+                            android:text=""
                             android:gravity="center"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:id="@+id/textView2"
-                            android:layout_weight="1" />
+                            android:layout_weight="1"
+                            android:textSize="15sp"/>
 
                     </LinearLayout>
 
@@ -166,17 +162,37 @@
                         android:layout_height="match_parent">
 
                         <TextView
-                            android:text="1.A The United States shares a very long border with Canada.
-                            2.B We'll leave for the theatre as soon as Jennifer arrives.
-                            3.D How long have you been working in your current job
-                            4.D Sean was very upset yesterday, you shouldn't have spoken to him so harshly
-                            5.C One of the biggest inconveniences of travelling by car is that it is much slower than flying.
-                            6.C Houses are being built along this road, and this is causing major delays to the morning traffic at the moment."
+                            android:text=""
                             android:gravity="center"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:id="@+id/textView89"
+                            android:textSize="15sp"
                             android:layout_weight="1" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/correction4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:text=""
+                            android:gravity="center"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/textView100"
+                            android:layout_weight="1"
+                            android:textSize="15sp"/>
 
                     </LinearLayout>
 

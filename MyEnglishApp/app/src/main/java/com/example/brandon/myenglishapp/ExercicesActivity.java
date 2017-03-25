@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 /**
@@ -23,6 +24,9 @@ public class ExercicesActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.exercices_activiy);
+
+        ImageView imageView1 = (ImageView) findViewById(R.id.exoImage);
+        imageView1.setImageResource(R.drawable.exercises);
 
         TextView QCM = (TextView) findViewById(R.id.qcm);
         QCM.setOnClickListener(new View.OnClickListener() {

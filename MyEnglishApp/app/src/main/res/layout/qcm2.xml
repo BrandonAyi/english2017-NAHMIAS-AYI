@@ -302,7 +302,7 @@
         android:orientation="horizontal">
 
         <TextView
-            android:text="shouldn't have speak"
+            android:text="C. shouldn't have speak"
             android:gravity="center"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
