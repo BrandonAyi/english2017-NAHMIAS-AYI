@@ -15,11 +15,8 @@
         <LinearLayout
             android:orientation="vertical"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-
-            <ListView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent" />
+            android:layout_height="wrap_content"
+            android:weightSum="1">
 
             <Space
                 android:layout_width="match_parent"
@@ -37,17 +34,18 @@
                 android:layout_height="20dp"></Space>
 
             <ImageView
-                android:layout_width="match_parent"
+                android:id="@+id/imageView03"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                app:srcCompat="@drawable/sample03"
-                android:id="@+id/imageView03" />
+                android:layout_weight="0.03"
+                app:srcCompat="@drawable/sample03" />
 
             <ImageView
-                android:layout_width="match_parent"
+                android:id="@+id/imageView02"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                app:srcCompat="@drawable/sample02"
-                android:id="@+id/imageView02" />
+                app:srcCompat="@drawable/sample02" />
 
             <ImageView
                 android:layout_width="264dp"
