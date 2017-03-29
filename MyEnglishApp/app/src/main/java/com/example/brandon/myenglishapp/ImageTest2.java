@@ -12,6 +12,12 @@ import android.widget.ImageView;
 public class ImageTest2 extends ImageTest1 {
 
     @Override
+    public void onBackPressed() {
+        imageScore=0;
+        ImageTest2.this.finish();
+    }
+
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.image_test2);

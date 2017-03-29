@@ -23,8 +23,9 @@
                 android:layout_height="40dp"></Space>
 
             <TextView
-                android:text="Which picture represents a famous tower in London ?"
+                android:text="Which picture represents a famous bridge in London ?"
                 android:gravity="center"
+                android:textSize="14sp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/textView1" />
@@ -35,21 +36,21 @@
 
             <ImageView
                 android:id="@+id/imageView03"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="0.03"
+                android:layout_width="351dp"
+                android:layout_height="267dp"
+                android:layout_gravity="center"
                 app:srcCompat="@drawable/sample03" />
 
             <ImageView
                 android:id="@+id/imageView02"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="351dp"
+                android:layout_height="267dp"
                 android:layout_gravity="center"
                 app:srcCompat="@drawable/sample02" />
 
             <ImageView
-                android:layout_width="264dp"
-                android:layout_height="140dp"
+                android:layout_width="352dp"
+                android:layout_height="231dp"
                 android:layout_gravity="center"
                 app:srcCompat="@drawable/sample01"
                 android:id="@+id/imageView01" />
